@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+#wrapper {
+  background-image: url(./Pictures/2.4.jpg);
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  min-height: 1000px;
+}
+.tit-gal {
+  font-size: 45px;
+  box-sizing: inherit;
+  text-align: center;
+  margin: 0 auto;
+  font-family: cursive;
+  color: black;
+}
+.tit-stic {
+  font-size: 35px;
+  box-sizing: inherit;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-family: cursive;
+  color: orangered;
+}
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
